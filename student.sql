@@ -2,10 +2,12 @@ CREATE TABLE Student (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL
 );
+
 CREATE TABLE Course (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(255) NOT NULL
 );
+
 CREATE TABLE Student_Course (
     student_id INT NOT NULL,
     course_id INT NOT NULL,
